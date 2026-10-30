@@ -1,0 +1,39 @@
+{
+  "name": "Dina Yazdani",
+  "headline": "Climatologist, Climate & Earth System Modeler | ML & Geospatial Researcher",
+  "statusBadge": "Available for PhD Positions & Research Collaborations",
+  "location": "Mashhad, Iran",
+  "email": "Dina.Yazdany@gmail.com",
+  "phone": "(+98) 915-552-7948",
+  "englishLevel": "English C1 (Actively preparing for IELTS)",
+  "persianLevel": "Persian (Native)",
+  "linkedin": "https://www.linkedin.com/in/dina-yazdani",
+  "github": "https://github.com/Dina-yazdani97",
+  "orcid": "https://orcid.org/0009-0001-9801-005X",
+  "researchgate": "https://www.researchgate.net/profile/Dina-Yazdani-2?ev=hdr_xprf",
+  "bioParagraph1": "My research focuses on climate modelling, Earth system models, and the analysis of large-scale climate datasets, with particular interest in model uncertainty, systematic biases, climate forcings, and climate extremes. In my MSc thesis, I compared CMIP5 and CMIP6 models to evaluate their performance in simulating temperature over Iran and investigated the effects of greenhouse-gas and natural forcings using DAMIP experiments.",
+  "bioParagraph2": "I have experience working with Python and R for climate data analysis, statistical modelling, spatial analysis, and reproducible workflows. I am currently expanding my research skills in machine learning and deep learning, with a focus on regression, classification, neural networks, and data-driven methods.",
+  "bioParagraph3": "My current research interest is to combine my background in climate science and Earth observation with machine learning for environmental and climate applications, climate extremes detection, and high-resolution spatial predictions.",
+  "stats": [
+    {
+      "label": "Master's GPA",
+      "value": "18.42 / 20",
+      "detail": "First-Rank & Outstanding Graduate"
+    },
+    {
+      "label": "Bachelor's GPA",
+      "value": "19.59 / 20",
+      "detail": "Rank 1 among 81 students"
+    },
+    {
+      "label": "Scientific Articles",
+      "value": "5+",
+      "detail": "Sci Rep, JESP, JCCR & more"
+    },
+    {
+      "label": "Peer Review & Service",
+      "value": "IPCC AR7",
+      "detail": "Expert Reviewer WGI & CMIP7"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import ResearchInterests from '../components/ResearchInterests.astro';
+import Publications from '../components/Publications.astro';
+import ExperienceTimeline from '../components/ExperienceTimeline.astro';
+import EducationAndAwards from '../components/EducationAndAwards.astro';
+import SkillsGrid from '../components/SkillsGrid.astro';
+import Certificates from '../components/Certificates.astro';
+import CommunitySection from '../components/CommunitySection.astro';
+import ContactSection from '../components/ContactSection.astro';
+import Footer from '../components/Footer.astro';
+
+import {
+  getProfile,
+  getResearchInterests,
+  getSkills,
+  getEducation,
+  getPublications,
+  getExperiences,
+  getAwards,
+  getServices,
+  getCertificates,
+  getCommunity,
+} from '../lib/data';
+
+const profile = getProfile();
+const interests = getResearchInterests();
+const skills = getSkills();
+const education = getEducation();
+const publications = getPublications();
+const experiences = getExperiences();
+const awards = getAwards();
+const services = getServices();
+const certificates = getCertificates();
+const community = getCommunity();
+
+const pageTitle = `${profile.name} | Climatologist & Earth System Modeler`;
+const pageDescription = `Academic portfolio and curriculum vitae of ${profile.name}. Research in climate modelling, Earth system models, CMIP6 evaluation, DAMIP experiments, and machine learning for climate extremes.`;
+---
+
+<Layout title={pageTitle} description={pageDescription} name={profile.name}>
+  <Navbar name={profile.name} />
+  
+  <main class="flex-1">
+    <Hero profile={profile} />
+    <ResearchInterests profile={profile} interests={interests} />
+    <Publications publications={publications} />
+    <ExperienceTimeline experiences={experiences} />
+    <EducationAndAwards education={education} awards={awards} services={services} />
+    <SkillsGrid skills={skills} />
+    <Certificates certificates={certificates} />
+    <CommunitySection items={community} />
+    <ContactSection profile={profile} />
+  </main>
+
+  <Footer name={profile.name} />
+</Layout>

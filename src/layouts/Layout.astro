@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  name: string;
+}
+
+const { title, description, name } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={name} />
+    <meta name="keywords" content="Dina Yazdani, Climatology, Climate Modelling, CMIP6, DAMIP, Earth System Models, Machine Learning, Geospatial Data, Remote Sensing, Python, R, Ferdowsi University" />
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Immediate theme setter script to prevent FOUC (Flash of Unstyled Content) -->
+    <script is:inline>
+      (function() {
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+
+    <!-- Print styling for clean CV export -->
+    <style is:global>
+      @media print {
+        header, footer, #theme-toggle, .copy-citation-btn, .pub-filter-btn {
+          display: none !important;
+        }
+        body {
+          background-color: white !important;
+          color: black !important;
+          font-size: 11pt !important;
+        }
+        section {
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
+          border-bottom: 1px solid #e5e7eb !important;
+          page-break-inside: avoid;
+        }
+        .max-w-7xl {
+          max-width: 100% !important;
+          padding: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased font-sans selection:bg-emerald-500/20 selection:text-emerald-700 dark:selection:text-emerald-300 min-h-screen flex flex-col transition-colors duration-200">
+    <slot />
+  </body>
+</html>

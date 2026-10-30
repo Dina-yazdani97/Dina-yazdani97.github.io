@@ -1,0 +1,14 @@
+{
+  "slug": "statistical-downscaling-gcms-technical-report",
+  "title": "Statistical Downscaling of General Circulation Models (GCMs); History, Principles, and Methods",
+  "authors": "Dina Yazdani et al.",
+  "journal": "Journal of Water and Sustainable Development",
+  "year": "2024",
+  "type": "Technical Report",
+  "status": "Published",
+  "doiUrl": "https://doi.org/10.22067/jwsd.v11i2.2401-1305",
+  "isHighlight": false,
+  "badge": "Technical Report",
+  "abstract": "An in-depth methodological review of statistical downscaling algorithms, history, and applications for transferring large-scale atmospheric variables from GCMs to local station scales.",
+  "order": 4
+}

@@ -1,0 +1,45 @@
+{
+  "programmingAndData": [
+    "Python (Handling large datasets with NumPy, Pandas, Xarray)",
+    "R / RStudio (Statistical Analysis, Data Visualization, Spatial Analysis)",
+    "Reproducible Workflow Automation (Pipelines & Script Chains)",
+    "Data Wrangling & Tidyverse",
+    "Jupyter Notebook & Google Colab"
+  ],
+  "machineLearning": [
+    "Scikit-learn (Supervised & Unsupervised Learning)",
+    "Regression & Classification Algorithms",
+    "Decision Trees & Ensemble Learning (Random Forest, XGBoost)",
+    "Deep Learning Foundations (PyTorch, TensorFlow / Keras)"
+  ],
+  "climateAnalysis": [
+    "CDO (Climate Data Operators)",
+    "NCO (NetCDF Operators)",
+    "NetCDF Vector & Raster Packages (ncdf4, RNetCDF)",
+    "ESMValTool (Earth System Model Evaluation Tool - In Progress)",
+    "CMIP5 & CMIP6 Multimodel Ensembles",
+    "DAMIP Experiments",
+    "SDSM (Statistical Down-Scaling Model)",
+    "HydroGOF & Climpact"
+  ],
+  "gisAndRemoteSensing": [
+    "ArcGIS Desktop",
+    "Spatial Data Analysis Using R (sf, terra, raster)",
+    "RGEE (Google Earth Engine in R)",
+    "Thematic & Cartographic Map Production (30DayMapChallenge)",
+    "Copernicus & WEkEO Data Services"
+  ],
+  "systemsAndComputing": [
+    "Linux (Ubuntu) & Server Administration",
+    "LPIC-1 Certified (Linux Professional Institute)",
+    "Git & GitHub Version Control",
+    "ICDL-1 Certified",
+    "Shell Scripting & Bash"
+  ],
+  "statisticalSoftware": [
+    "SPSS",
+    "Minitab",
+    "Microsoft Excel (Advanced Analysis)",
+    "Rstat tool & Hydroclimate Metric Computations"
+  ]
+}

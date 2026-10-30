@@ -1,0 +1,14 @@
+{
+  "slug": "historical-surface-air-temperature-cmip6",
+  "title": "Comprehensive Assessment of Historical Surface Air Temperature Simulations over Iran Using 51 CMIP6 Models",
+  "authors": "Dina Yazdani et al.",
+  "journal": "Scientific Reports (Sci Rep)",
+  "year": "2026",
+  "type": "Research Article",
+  "status": "Published",
+  "doiUrl": "https://doi.org/10.1038/s41598-026-76903-0",
+  "isHighlight": true,
+  "badge": "New Publish",
+  "abstract": "A comprehensive multiscale evaluation of 51 CMIP6 climate models against observed historical surface air temperature datasets over Iran, identifying model uncertainty, systematic spatial biases, and ensemble weighting techniques.",
+  "order": 1
+}

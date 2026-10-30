@@ -1,0 +1,17 @@
+{
+  "slug": "fum-research-assistant",
+  "role": "Research Assistant",
+  "organization": "Ferdowsi University of Mashhad",
+  "location": "Mashhad, Iran",
+  "period": "2023 – 2026",
+  "category": "Academic Research & Collaboration",
+  "highlights": [
+    "Focused on Large Climate Datasets, CMIP6 Evaluation, NEX-GDDP project, ISIMIP project, ScenarioMIP, and climate extremes.",
+    "Automated the analysis of CMIP6 climate models in R by building linked script pipelines, slashing computation time from 1-2 months to only 1 week.",
+    "Used R packages HydroGOF and Rstat to calculate statistical metrics; applied sf, terra, and tidyverse for high-quality spatial data visualization.",
+    "Calculated and evaluated extreme weather indices using the Climpact package in R."
+  ],
+  "linkUrl": "https://github.com/Dina-yazdani97",
+  "linkLabel": "View Code on GitHub",
+  "order": 2
+}

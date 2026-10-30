@@ -1,0 +1,15 @@
+{
+  "slug": "rladies-urmia",
+  "role": "Organizer & Volunteer Instructor",
+  "organization": "R-Ladies Urmia",
+  "location": "Iran (Hybrid)",
+  "period": "2025 – Present",
+  "category": "Community Leadership",
+  "highlights": [
+    "Book Club Facilitator: Introducing landmark geospatial literature such as 'Geocomputation with R' (Lovelace, Nowosad, Muenchow) to the community and connecting aspiring spatial analysts with field specialists.",
+    "Teaching Spatial Data Science with R: Demystifying complex coding concepts and breaking down spatial data analysis, manipulation, cartographic visualization, and wrangling into accessible lessons."
+  ],
+  "linkUrl": "https://www.linkedin.com/in/dina-yazdani",
+  "linkLabel": "Community Profile",
+  "order": 6
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "Machine Learning for Earth Observation & Climate",
+      "tag": "AI & Climate",
+      "description": "Applying regression, classification, deep learning, and neural networks to large-scale Earth observation and environmental data for predictive modeling and pattern extraction.",
+      "icon": "Cpu"
+    },
+    {
+      "title": "Climate Forcings using DAMIP Project",
+      "tag": "Climate Dynamics",
+      "description": "Investigating greenhouse gas (GHG) vs. natural solar and volcanic forcings using Detection and Attribution Model Intercomparison Project (DAMIP) experimental designs.",
+      "icon": "Sun"
+    },
+    {
+      "title": "CMIP5, CMIP6 & ScenarioMIP Projects",
+      "tag": "Climate Modeling",
+      "description": "Evaluating multimodel ensembles, historical temperature simulations, future projection scenarios, and model systematic biases across regional scales.",
+      "icon": "Globe"
+    },
+    {
+      "title": "Climate Extremes & Heatwaves",
+      "tag": "Extremes Analysis",
+      "description": "Analyzing extreme precipitation and temperature anomalies, indices, and compound events using tools such as Climpact and advanced statistical metrics.",
+      "icon": "Flame"
+    },
+    {
+      "title": "Uncertainty & Statistical Modelling",
+      "tag": "Data Science",
+      "description": "Developing bias-correction workflows, SDSM statistical downscaling, post-processing methods, and quantifying model uncertainties in precipitation and temperature.",
+      "icon": "BarChart3"
+    },
+    {
+      "title": "Geospatial Data Analysis & Remote Sensing",
+      "tag": "Earth Observation",
+      "description": "Processing multidimensional vector and raster datasets (NetCDF, GEE) using R (sf, terra, RGEE), Python (xarray, rasterio), and ArcGIS desktop.",
+      "icon": "Satellite"
+    }
+  ]
+}

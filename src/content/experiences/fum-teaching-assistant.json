@@ -1,0 +1,15 @@
+{
+  "slug": "fum-teaching-assistant",
+  "role": "Teaching Assistant",
+  "organization": "Ferdowsi University of Mashhad",
+  "location": "Mashhad, Iran",
+  "period": "2023",
+  "category": "Teaching & Mentorship",
+  "highlights": [
+    "Taught Hydroclimate of Iran's Catchment Basins using ArcGIS and R programming language.",
+    "Instructed undergraduate students in statistical analysis, climatic data visualization, and spatial GIS workflows."
+  ],
+  "linkUrl": "",
+  "linkLabel": "",
+  "order": 7
+}
