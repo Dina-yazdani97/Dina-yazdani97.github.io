@@ -12,14 +12,16 @@ import {
 let errorMessage = '';
 const redirectUrl = Astro.url.searchParams.get('redirect') || '/keystatic';
 
-// Check if already authenticated
-const currentSession = Astro.cookies.get(AUTH_COOKIE_NAME);
-if (currentSession?.value && verifySessionToken(currentSession.value)) {
-  return Astro.redirect(redirectUrl);
+// Check if already authenticated (Local dev only)
+if (!import.meta.env.PROD) {
+  const currentSession = Astro.cookies.get(AUTH_COOKIE_NAME);
+  if (currentSession?.value && verifySessionToken(currentSession.value)) {
+    return Astro.redirect(redirectUrl);
+  }
 }
 
-// Handle Form Submission
-if (Astro.request.method === 'POST') {
+// Handle Form Submission (Local dev only)
+if (!import.meta.env.PROD && Astro.request.method === 'POST') {
   try {
     const formData = await Astro.request.formData();
     const username = (formData.get('username') as string)?.trim();
