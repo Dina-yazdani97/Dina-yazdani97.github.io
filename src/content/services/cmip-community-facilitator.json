@@ -1,9 +1,9 @@
 {
   "slug": "cmip-community-facilitator",
-  "role": "Community Facilitator",
+  "role": "Workshop Facilitator",
   "organization": "CMIP Community - CMIP7 Analysis Workshops",
   "date": "20th Oct 2026",
   "badge": "CMIP7 Workshop Facilitation",
-  "description": "Facilitated community sessions and interactive breakout analysis during the CMIP7 Analysis Workshops addressing 'Second Question: Weather Changing'.",
+  "description": "Facilitated community sessions and interactive breakout group during the second CMIP7 Analysis Workshop addressing 'Second Question: Weather Changing'.",
   "order": 2
 }
