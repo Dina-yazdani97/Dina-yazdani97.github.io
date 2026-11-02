@@ -1,7 +1,7 @@
 {
   "slug": "bias-correction-methods-cmip-iran",
   "title": "Evaluation of bias correction methods in improving the direct model output of temperature in CMIP over Iran",
-  "authors": "Dina Yazdani et al.",
+  "authors": "Dina Yazdani, Azar Zarrin, Abbas Ali Dadashi-Roudbari",
   "journal": "Journal of the Earth and Space Physics",
   "year": "2024",
   "type": "Research Article",
@@ -9,6 +9,6 @@
   "doiUrl": "https://doi.org/10.22059/jesphys.2024.363498.1007547",
   "isHighlight": true,
   "badge": "Peer-Reviewed",
-  "abstract": "Investigating parametric and non-parametric statistical bias correction techniques to rectify systematic discrepancies in raw CMIP general circulation models for regional climate studies.",
+  "abstract": "This study evaluated five bias correction methods for minimum and maximum temperature simulations from the EC-Earth3-CC model across 46 synoptic stations in Iran during 1980–2014. The results showed that all methods substantially reduced model biases and errors, improving agreement with observations. However, no single method performed best across all regions, highlighting the importance of considering local climate and geographical conditions when selecting a bias correction approach.",
   "order": 2
 }
