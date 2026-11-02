@@ -1,9 +1,9 @@
 {
-  "slug": "wekeo-ice-monitoring",
-  "title": "WEkEO for Ice Monitoring",
-  "provider": "Copernicus & Mercator Ocean International",
-  "date": "Sep 2025",
+  "slug": "The-R-programming-Starter-Course",
+  "title": "The R programming Starter",
+  "provider": "Microsoft",
+  "date": "Oct 2026",
   "status": "Completed",
-  "category": "Climate & Earth Systems",
+  "category": "Data Science",
   "order": 3
 }
