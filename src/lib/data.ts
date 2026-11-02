@@ -13,6 +13,7 @@ export interface ProfileData {
   github: string;
   orcid: string;
   researchgate: string;
+  googlescholar: string;
   bioParagraph1: string;
   bioParagraph2: string;
   bioParagraph3: string;
