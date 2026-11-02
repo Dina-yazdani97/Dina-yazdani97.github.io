@@ -9,18 +9,15 @@
   "machineLearning": [
     "Scikit-learn (Supervised & Unsupervised Learning)",
     "Regression & Classification Algorithms",
-    "Decision Trees & Ensemble Learning (Random Forest, XGBoost)",
-    "Deep Learning Foundations (PyTorch, TensorFlow / Keras)"
+    "Decision Trees & Ensemble Learning (Random Forest, XGBoost)"
   ],
   "climateAnalysis": [
     "CDO (Climate Data Operators)",
     "NCO (NetCDF Operators)",
-    "NetCDF Vector & Raster Packages (ncdf4, RNetCDF)",
-    "ESMValTool (Earth System Model Evaluation Tool - In Progress)",
-    "CMIP5 & CMIP6 Multimodel Ensembles",
-    "DAMIP Experiments",
-    "SDSM (Statistical Down-Scaling Model)",
-    "HydroGOF & Climpact"
+    "NetCDF Vector & Raster Packages (ncdf4, RNetCDF, Terra)",
+    "ESMValTool (Earth System Model Evaluation Tool)",
+    "SDSM (Statistical DownScaling Model)",
+    "Climate4R & Climpact"
   ],
   "gisAndRemoteSensing": [
     "ArcGIS Desktop",
@@ -40,6 +37,6 @@
     "SPSS",
     "Minitab",
     "Microsoft Excel (Advanced Analysis)",
-    "Rstat tool & Hydroclimate Metric Computations"
+    "Minitab"
   ]
 }
