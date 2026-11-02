@@ -7,8 +7,7 @@
   "category": "Industry & Applied AI",
   "highlights": [
     "Developing practical foundations in machine learning using Python, NumPy, Pandas, and Scikit-learn.",
-    "Working with supervised and unsupervised learning, regression, and classification methodologies.",
-    "Progressing toward decision-tree methods, ensemble learning, and deep learning architectures using PyTorch and TensorFlow/Keras."
+    "Working with supervised and unsupervised learning, regression, and classification methodologies."
   ],
   "linkUrl": "",
   "linkLabel": "",
