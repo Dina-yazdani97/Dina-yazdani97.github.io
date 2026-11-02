@@ -1,7 +1,7 @@
 {
   "slug": "projection-min-max-temperatures-sdsm",
   "title": "Projection of minimum and maximum temperatures in cold regions of Iran using SDSM statistical downscaling model",
-  "authors": "Dina Yazdani et al.",
+  "authors": "Azar Zarrin, Dina Yazdani, Abbas Ali Dadashi-Roudbari",
   "journal": "Journal of Climate Change Research",
   "year": "2022",
   "type": "Research Article",
@@ -9,6 +9,6 @@
   "doiUrl": "https://doi.org/10.30488/ccr.2022.340823.1078",
   "isHighlight": false,
   "badge": "Statistical Downscaling",
-  "abstract": "Application of the Statistical DownScaling Model (SDSM) to project future trends in minimum and maximum temperatures across mountainous and cold climate zones in Iran under multiple emission pathways.",
+  "abstract": "This study used the CanESM2 climate model and the SDSM statistical downscaling method to project minimum and maximum temperatures across Iran’s cold regions under three future climate scenarios. The results indicate a clear warming trend in all future periods, with stronger temperature increases under RCP4.5 and RCP8.5, particularly in northwestern Iran. These changes could accelerate snowmelt and threaten freshwater availability in Iran’s arid and semi-arid regions.",
   "order": 3
 }
