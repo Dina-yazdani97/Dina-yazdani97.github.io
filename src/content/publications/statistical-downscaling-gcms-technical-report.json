@@ -1,7 +1,7 @@
 {
   "slug": "statistical-downscaling-gcms-technical-report",
   "title": "Statistical Downscaling of General Circulation Models (GCMs); History, Principles, and Methods",
-  "authors": "Dina Yazdani et al.",
+  "authors": "Dina Yazdani, Azar Zarrin, Abbasali Dadashi-Roudbari",
   "journal": "Journal of Water and Sustainable Development",
   "year": "2024",
   "type": "Technical Report",
@@ -9,6 +9,6 @@
   "doiUrl": "https://doi.org/10.22067/jwsd.v11i2.2401-1305",
   "isHighlight": false,
   "badge": "Technical Report",
-  "abstract": "An in-depth methodological review of statistical downscaling algorithms, history, and applications for transferring large-scale atmospheric variables from GCMs to local station scales.",
+  "abstract": "This study compared R and CMhyd software to evaluate their performance in bias-correcting minimum and maximum temperature data from the EC-Earth3-CC climate model. The results revealed that CMhyd introduced considerable errors in both direct model output extraction and bias correction compared with R. The findings highlight the importance of choosing reliable methods and software to ensure accurate climate data processing and reduce uncertainty in climate change studies.",
   "order": 4
 }
