@@ -1,6 +1,6 @@
 {
   "name": "Dina Yazdani",
-  "headline": "Climatologist, Climate & Earth System Modeler | ML & Geospatial Researcher",
+  "headline": "Climatologist, Climate Researcher | R & Geospatial Instructor",
   "statusBadge": "Available for PhD Positions & Research Collaborations",
   "location": "Mashhad, Iran",
   "email": "Dina.Yazdany@gmail.com",
@@ -10,10 +10,11 @@
   "linkedin": "https://www.linkedin.com/in/dina-yazdani",
   "github": "https://github.com/Dina-yazdani97",
   "orcid": "https://orcid.org/0009-0001-9801-005X",
+  "Google Scholar": "https://scholar.google.com/citations?user=nVmXTnIAAAAJ&hl=en",
   "researchgate": "https://www.researchgate.net/profile/Dina-Yazdani-2?ev=hdr_xprf",
   "bioParagraph1": "My research focuses on climate modelling, Earth system models, and the analysis of large-scale climate datasets, with particular interest in model uncertainty, systematic biases, climate forcings, and climate extremes. In my MSc thesis, I compared CMIP5 and CMIP6 models to evaluate their performance in simulating temperature over Iran and investigated the effects of greenhouse-gas and natural forcings using DAMIP experiments.",
   "bioParagraph2": "I have experience working with Python and R for climate data analysis, statistical modelling, spatial analysis, and reproducible workflows. I am currently expanding my research skills in machine learning and deep learning, with a focus on regression, classification, neural networks, and data-driven methods.",
-  "bioParagraph3": "My current research interest is to combine my background in climate science and Earth observation with machine learning for environmental and climate applications, climate extremes detection, and high-resolution spatial predictions.",
+  "bioParagraph3": "My current research interest is to combine my background in climate science and Earth observation with machine learning for environmental and climate applications and climate extremes detection.",
   "stats": [
     {
       "label": "Master's GPA",
@@ -33,7 +34,7 @@
     {
       "label": "Peer Review & Service",
       "value": "IPCC AR7",
-      "detail": "Expert Reviewer WGI & CMIP7"
+      "detail": "Expert Reviewer First & Second Order Draft"
     }
   ]
 }
